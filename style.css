@@ -1,0 +1,249 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin:40px 0 0 0 ;
+  line-height: 1.3;
+}
+
+.flex {
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toplink {
+  text-decoration: none;
+  border: 2px solid hsl(322, 100%, 66%);
+  border-radius: 30px;
+  width: 70px;
+  color: hsl(322, 100%, 66%);
+  align-self: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px hsla(322, 100%, 66%,0.06);
+}
+
+.container1 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  padding-top: 200px;
+  color: hsl(192, 100%, 9%);
+}
+
+.container1 {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.container1 p {
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  color: hsl(192, 100%, 9%);
+}
+
+.screenmockup {
+  padding-top: 50px;
+  width: 95%;
+}
+
+.btn {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 20px 20px;
+  width: 30%;
+  margin: 20px auto;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px hsla(322, 100%, 66%,0.2);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.container2 {
+  margin: 100px auto;
+}
+
+.messages h1,
+.communities h1 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  color: hsl(192, 100%, 9%);
+}
+
+.messages p,
+.communities p {
+  color: grey;
+  font-size: 22px;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.messages {
+  margin-right: 150px;
+}
+
+.background-section1 {
+  background-color: hsla(207, 100%, 98%, 0.9);
+  height: 500px;
+}
+
+.background-top-desktop-1 {
+  background-image: url("images/bg-section-top-desktop-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 1540x;
+}
+
+.background-bottom-desktop-1 {
+  background-image: url("images/bg-section-bottom-desktop-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 1540x;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.text {
+  width: 70%;
+  padding-top: 125px;
+  color: hsl(192, 100%, 9%);
+}
+
+.text h2 {
+  font-size: 40px;
+}
+
+.grid1 img {
+  width: 70%;
+}
+
+.background-section2 {
+  margin: 50px auto;
+  height: 500px;
+}
+
+.background-top-desktop-2 {
+  background-image: url("images/bg-section-top-desktop-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 1540x;
+}
+
+.background-bottom-desktop-2 {
+  background-image: url("images/bg-section-bottom-desktop-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 1540x;
+}
+
+.background-section3 {
+  background-color: hsla(207, 100%, 98%, 0.9);
+  height: 500px;
+}
+
+.rebuild {
+  text-align: center;
+  margin: auto;
+  height: 500px;
+}
+
+.rebuild h1 {
+  padding-top: 125px;
+  font-size: 46px;
+}
+
+.footerlogo p {
+  width: 50%;
+}
+
+.newsletter p {
+  width: 55%;
+  padding-bottom: 30px;
+}
+
+.subscribe {
+  display: flex;
+}
+
+.btn-subscribe {
+  margin: 0 30px;
+  border-radius: 10px;
+}
+
+.subscribe input {
+  width: 45%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: hsla(322, 100%, 66%, 0.9);
+}
+
+h3 {
+  margin: 0;
+}
+
+.footerbackground {
+  background-image: url("images/bg-footer-top-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  width: 1540x;
+}
+
+.footer {
+  color: #fff;
+  background-color: hsl(192, 100%, 9%);
+  height: 500px;
+  margin: auto 0;
+}
+
+.gridfooter {
+  padding: 75px;
+}
+
+.fasinternal {
+  margin-right: 20px;
+}
+
+.tilt {
+  transform: skewX(30deg);
+}
+
+.footerlogo img {
+  filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+}
+
+.socialicon {
+  padding: 10px;
+  color: #fff;
+}
+
+.socialicon:hover {
+  color: skyblue;
+}
+
+.icon {
+  padding-left: 65px;
+  padding-bottom: 50px;
+}
